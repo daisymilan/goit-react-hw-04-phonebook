@@ -1,28 +1,25 @@
 .contactListItem {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px;
-  border-bottom: 2px solid #f0e9e9;
-  background-color: #fffafa;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 .contactAlign {
-  margin-right: auto;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .btnDelete {
-  padding: 10px 15px;
-  background-color: #7e4350;
+  background-color: #f44336;
   color: white;
   border: none;
-  border-radius: 15px;
+  padding: 8px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.3s ease;
+  font-size: 14px;
 }
 
 .btnDelete:hover {
-  background-color: #c4b1b5;
-  transform: scale(1.05);
+  background-color: #d32f2f;
 }
